@@ -58,7 +58,7 @@ namespace CitizensRegistryApp.Infrastructure.Profiles
 
     public static class QueryExtensions
     {
-        public static Query WhereFilter(this Query query, FilterBase filter)
+        public static Query WhereFilter(this Query query, Filter filter)
         {
             if(filter.Filters.Count() > 0)
             {
